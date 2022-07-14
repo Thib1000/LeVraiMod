@@ -42,7 +42,7 @@ public class BossKeyBinding extends LeVraiModModElements.ModElement {
 	@Override
 	@OnlyIn(Dist.CLIENT)
 	public void initElements() {
-		keys = new KeyBinding("key.le_vrai_mod.boss", GLFW.GLFW_KEY_KP_9, "key.categories.gameplay");
+		keys = new KeyBinding("key.le_vrai_mod.boss", GLFW.GLFW_KEY_B, "key.categories.gameplay");
 		ClientRegistry.registerKeyBinding(keys);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
