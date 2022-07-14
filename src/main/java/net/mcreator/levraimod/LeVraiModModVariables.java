@@ -51,6 +51,8 @@ public class LeVraiModModVariables {
 	public static class WorldVariables extends WorldSavedData {
 		public static final String DATA_NAME = "le_vrai_mod_worldvars";
 		public boolean Adelapoudredosdanslereviver = false;
+		public double Blocs_Mines_sunPick = 1.0;
+		public double Niv_sun_pick = 1.0;
 
 		public WorldVariables() {
 			super(DATA_NAME);
@@ -63,11 +65,15 @@ public class LeVraiModModVariables {
 		@Override
 		public void read(CompoundNBT nbt) {
 			Adelapoudredosdanslereviver = nbt.getBoolean("Adelapoudredosdanslereviver");
+			Blocs_Mines_sunPick = nbt.getDouble("Blocs_Mines_sunPick");
+			Niv_sun_pick = nbt.getDouble("Niv_sun_pick");
 		}
 
 		@Override
 		public CompoundNBT write(CompoundNBT nbt) {
 			nbt.putBoolean("Adelapoudredosdanslereviver", Adelapoudredosdanslereviver);
+			nbt.putDouble("Blocs_Mines_sunPick", Blocs_Mines_sunPick);
+			nbt.putDouble("Niv_sun_pick", Niv_sun_pick);
 			return nbt;
 		}
 

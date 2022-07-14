@@ -78,10 +78,10 @@ public class SunpickBlockDestroyedWithToolProcedure {
 				if (world instanceof World && !world.isRemote()) {
 					((World) world).addEntity(new ExperienceOrbEntity(((World) world), x, y, z, (int) 2));
 				}
-				LeVraiModModVariables.poseruneblockdedim = (true);
-			} else {
-				LeVraiModModVariables.poseruneblockdedim = (false);
 			}
 		}
+		LeVraiModModVariables.WorldVariables.get(world).Blocs_Mines_sunPick = (LeVraiModModVariables.WorldVariables.get(world).Blocs_Mines_sunPick
+				+ 1);
+		LeVraiModModVariables.WorldVariables.get(world).syncData(world);
 	}
 }

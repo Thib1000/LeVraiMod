@@ -2266,6 +2266,22 @@
           }
         ]
       }
+    },
+    {
+      "name": "Niveaupiochedesun",
+      "type": "overlay",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "niveaupiochedesun"
+    },
+    {
+      "name": "Nivsunpick",
+      "type": "gui",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nivsunpick"
     }
   ],
   "variable_elements": [
@@ -2280,6 +2296,18 @@
       "type": "logic",
       "scope": "world",
       "value": "false"
+    },
+    {
+      "name": "Blocs_Mines_sunPick",
+      "type": "number",
+      "scope": "world",
+      "value": "1.0"
+    },
+    {
+      "name": "Niv_sun_pick",
+      "type": "number",
+      "scope": "world",
+      "value": "1.0"
     }
   ],
   "sound_elements": [
