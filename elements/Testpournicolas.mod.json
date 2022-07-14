@@ -3,7 +3,7 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "magma_helmet",
+    "textureHelmet": "spartan_helmet_item",
     "enableBody": false,
     "textureBody": "",
     "enableLeggings": false,
@@ -13,8 +13,8 @@
     "creativeTab": {
       "value": "CUSTOM:Thib1000"
     },
-    "armorTextureFile": "diamond_",
-    "helmetName": "Casque en Testpournicolas",
+    "armorTextureFile": "spartan_",
+    "helmetName": "Spartan Helmet",
     "bodyName": "Plastron de Testpournicolas",
     "leggingsName": "Jambières de Testpournicolas",
     "bootsName": "Bottes en Testpournicolas",
@@ -51,7 +51,7 @@
     "toughness": 0.0,
     "knockbackResistance": 0.0,
     "equipSound": {
-      "value": ""
+      "value": "CUSTOM:grunt_birthday_sound_effect"
     },
     "repairItems": []
   }

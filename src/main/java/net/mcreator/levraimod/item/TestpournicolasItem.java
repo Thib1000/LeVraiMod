@@ -53,7 +53,8 @@ public class TestpournicolasItem extends LeVraiModModElements.ModElement {
 
 			@Override
 			public net.minecraft.util.SoundEvent getSoundEvent() {
-				return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation(""));
+				return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS
+						.getValue(new ResourceLocation("le_vrai_mod:grunt_birthday_sound_effect"));
 			}
 
 			@Override
@@ -80,7 +81,7 @@ public class TestpournicolasItem extends LeVraiModModElements.ModElement {
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(Thib1000ItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "le_vrai_mod:textures/models/armor/diamond__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "le_vrai_mod:textures/models/armor/spartan__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("testpournicolas_helmet"));
 	}

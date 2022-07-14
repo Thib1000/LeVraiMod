@@ -48,6 +48,8 @@ public class LeVraiModModElements {
 
 	public LeVraiModModElements() {
 		sounds.put(new ResourceLocation("le_vrai_mod", "pigstep"), new net.minecraft.util.SoundEvent(new ResourceLocation("le_vrai_mod", "pigstep")));
+		sounds.put(new ResourceLocation("le_vrai_mod", "grunt_birthday_sound_effect"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("le_vrai_mod", "grunt_birthday_sound_effect")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("le_vrai_mod").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

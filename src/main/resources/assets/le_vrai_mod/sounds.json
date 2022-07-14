@@ -7,5 +7,15 @@
         "stream": false
       }
     ]
+  },
+  "grunt_birthday_sound_effect": {
+    "category": "neutral",
+    "subtitle": "subtitles.grunt_birthday_sound_effect",
+    "sounds": [
+      {
+        "name": "le_vrai_mod:gruntbirthday",
+        "stream": false
+      }
+    ]
   }
 }
