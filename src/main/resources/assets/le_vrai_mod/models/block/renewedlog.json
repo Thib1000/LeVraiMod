@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "le_vrai_mod:blocks/oak_log",
+    "up": "le_vrai_mod:blocks/oak_log",
+    "north": "le_vrai_mod:blocks/oak_log",
+    "east": "le_vrai_mod:blocks/oak_log",
+    "south": "le_vrai_mod:blocks/oak_log",
+    "west": "le_vrai_mod:blocks/oak_log",
+    "particle": "le_vrai_mod:blocks/oak_log"
+  }
+}

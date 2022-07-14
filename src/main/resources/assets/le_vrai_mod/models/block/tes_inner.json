@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "le_vrai_mod:blocks/new_piskel",
+    "top": "le_vrai_mod:blocks/new_piskel",
+    "side": "le_vrai_mod:blocks/new_piskel"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "bnew2",
+    "customModelName": "Normal",
+    "name": "Epee des elements",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Thib1000"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 10.0,
+    "enchantability": 1,
+    "damageVsEntity": 100.0,
+    "usageCount": 10000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Lingotdesdimensionsoverworldetnether"
+      },
+      {
+        "value": "CUSTOM:Lingotdesdimensionsenderetrefined"
+      },
+      {
+        "value": "CUSTOM:Lingotdesdimensions"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

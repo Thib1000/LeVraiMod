@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "le_vrai_mod:blocks/moon",
+    "up": "le_vrai_mod:blocks/moon",
+    "north": "le_vrai_mod:blocks/moon",
+    "east": "le_vrai_mod:blocks/moon",
+    "south": "le_vrai_mod:blocks/moon",
+    "west": "le_vrai_mod:blocks/moon",
+    "particle": "le_vrai_mod:blocks/moon"
+  }
+}

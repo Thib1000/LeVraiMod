@@ -1,0 +1,6 @@
+{
+  "parent": "block/template_glass_pane_noside_alt",
+  "textures": {
+    "pane": "le_vrai_mod:blocks/oak_log_1"
+  }
+}

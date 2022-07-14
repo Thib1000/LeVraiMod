@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "le_vrai_mod:bottesvolantes_boots"
+    },
+    "title": {
+      "translate": "advancements.reborn.title"
+    },
+    "description": {
+      "translate": "advancements.reborn.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "reborn": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "le_vrai_mod:epeedeselemava"
+}

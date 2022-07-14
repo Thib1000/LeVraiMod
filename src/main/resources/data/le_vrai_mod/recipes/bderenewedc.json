@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 ",
+    " 3"
+  ],
+  "key": {
+    "0": {
+      "item": "le_vrai_mod:sunblock"
+    },
+    "3": {
+      "item": "le_vrai_mod:pde"
+    }
+  },
+  "result": {
+    "item": "le_vrai_mod:bdenouvelledimention",
+    "count": 1
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 6,
+  "ingredient": {
+    "item": "le_vrai_mod:blockdesdimensions"
+  },
+  "result": "le_vrai_mod:tes"
+}

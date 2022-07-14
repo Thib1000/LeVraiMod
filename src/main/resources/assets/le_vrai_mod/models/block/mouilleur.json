@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "le_vrai_mod:blocks/dirt_1",
+    "up": "le_vrai_mod:blocks/dirt_2",
+    "north": "le_vrai_mod:blocks/dirt_4",
+    "east": "le_vrai_mod:blocks/dirt",
+    "south": "le_vrai_mod:blocks/dirt_3",
+    "west": "le_vrai_mod:blocks/mouilleur",
+    "particle": "le_vrai_mod:blocks/dirt_1"
+  }
+}

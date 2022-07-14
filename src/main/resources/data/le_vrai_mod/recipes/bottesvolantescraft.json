@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "le_vrai_mod:lingotdesdimensions"
+    },
+    "3": {
+      "item": "le_vrai_mod:suningot"
+    },
+    "4": {
+      "item": "minecraft:diamond_boots"
+    },
+    "5": {
+      "item": "le_vrai_mod:suningot"
+    },
+    "7": {
+      "item": "le_vrai_mod:lingotdesdimensions"
+    }
+  },
+  "result": {
+    "item": "le_vrai_mod:bottesvolantes_boots",
+    "count": 1
+  }
+}

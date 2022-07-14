@@ -1,0 +1,63 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": "partir",
+          "onClick": {
+            "name": "Boutonmoongui"
+          },
+          "width": 55,
+          "height": 20,
+          "name": "partir",
+          "x": 185,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Que voulez-vous faire?",
+          "color": {
+            "value": -52429,
+            "falpha": 0.0
+          },
+          "name": "Que voulez-vous faire?",
+          "x": 163,
+          "y": 50
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "revenir",
+          "onClick": {
+            "name": "Moonrevenir"
+          },
+          "width": 60,
+          "height": 20,
+          "name": "revenir",
+          "x": 183,
+          "y": 140
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:diamond_sword"
+    },
+    "1": {
+      "item": "le_vrai_mod:ppetedeelements"
+    },
+    "2": {
+      "item": "minecraft:diamond_sword"
+    },
+    "3": {
+      "item": "le_vrai_mod:ppetedeelements"
+    },
+    "4": {
+      "item": "le_vrai_mod:croixdesdimentions"
+    },
+    "5": {
+      "item": "le_vrai_mod:ppetedeelements"
+    },
+    "6": {
+      "item": "minecraft:nether_star"
+    },
+    "7": {
+      "item": "le_vrai_mod:ppetedeelements"
+    },
+    "8": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "result": {
+    "item": "le_vrai_mod:epeedeselements",
+    "count": 1
+  }
+}

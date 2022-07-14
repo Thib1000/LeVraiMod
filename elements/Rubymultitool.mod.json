@@ -1,0 +1,31 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "ruby_multitool",
+    "customModelName": "Normal",
+    "name": "Ruby multitool",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Thib1000"
+    },
+    "toolType": "MultiTool",
+    "harvestLevel": 5,
+    "efficiency": 4.0,
+    "attackSpeed": 3.0,
+    "enchantability": 3,
+    "damageVsEntity": 12.0,
+    "usageCount": 5000,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Ruby"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

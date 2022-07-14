@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:ender_eye"
+    },
+    "1": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "2": {
+      "tag": "forge:stone"
+    },
+    "3": {
+      "item": "le_vrai_mod:sunblock"
+    }
+  },
+  "result": {
+    "item": "le_vrai_mod:ppetedeelements",
+    "count": 2
+  }
+}

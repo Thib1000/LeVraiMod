@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    " 4 ",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "le_vrai_mod:bdenouvelledimention"
+    },
+    "2": {
+      "item": "le_vrai_mod:bdeender"
+    },
+    "4": {
+      "item": "le_vrai_mod:pde"
+    },
+    "6": {
+      "item": "le_vrai_mod:bdenether"
+    },
+    "8": {
+      "item": "le_vrai_mod:batondeselementsoverworld"
+    }
+  },
+  "result": {
+    "item": "le_vrai_mod:croixdesdimentions",
+    "count": 1
+  }
+}

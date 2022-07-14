@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "le_vrai_mod:blocks/sun_block",
+    "up": "le_vrai_mod:blocks/sun_block",
+    "north": "le_vrai_mod:blocks/sun_block",
+    "east": "le_vrai_mod:blocks/sun_block",
+    "south": "le_vrai_mod:blocks/sun_block",
+    "west": "le_vrai_mod:blocks/sun_block",
+    "particle": "le_vrai_mod:blocks/sun_block"
+  }
+}

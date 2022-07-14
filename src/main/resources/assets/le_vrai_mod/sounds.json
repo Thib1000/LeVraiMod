@@ -1,0 +1,11 @@
+{
+  "pigstep": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "le_vrai_mod:ontiva.com_minecraft_ost_-_pigstep-hq",
+        "stream": false
+      }
+    ]
+  }
+}

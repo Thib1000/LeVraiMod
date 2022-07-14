@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "le_vrai_mod:suningot"
+    },
+    "1": {
+      "item": "le_vrai_mod:suningot"
+    },
+    "2": {
+      "item": "le_vrai_mod:suningot"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "le_vrai_mod:sunpick",
+    "count": 1
+  }
+}

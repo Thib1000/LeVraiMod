@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "le_vrai_mod:bdenouvelledimention"
+    },
+    "1": {
+      "item": "minecraft:diamond"
+    },
+    "2": {
+      "item": "le_vrai_mod:bdeender"
+    },
+    "3": {
+      "item": "minecraft:diamond"
+    },
+    "4": {
+      "item": "le_vrai_mod:ppetedeelements"
+    },
+    "5": {
+      "item": "minecraft:diamond"
+    },
+    "6": {
+      "item": "le_vrai_mod:bdenether"
+    },
+    "7": {
+      "item": "minecraft:diamond"
+    },
+    "8": {
+      "item": "le_vrai_mod:batondeselementsoverworld"
+    }
+  },
+  "result": {
+    "item": "le_vrai_mod:croixdesdimentions",
+    "count": 1
+  }
+}

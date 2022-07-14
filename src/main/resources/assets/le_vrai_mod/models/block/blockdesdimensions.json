@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "le_vrai_mod:blocks/new_piskel",
+    "up": "le_vrai_mod:blocks/new_piskel",
+    "north": "le_vrai_mod:blocks/new_piskel",
+    "east": "le_vrai_mod:blocks/new_piskel",
+    "south": "le_vrai_mod:blocks/new_piskel",
+    "west": "le_vrai_mod:blocks/new_piskel",
+    "particle": "le_vrai_mod:blocks/new_piskel"
+  }
+}

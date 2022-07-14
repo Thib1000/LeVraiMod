@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "le_vrai_mod:suningot"
+    },
+    "1": {
+      "item": "le_vrai_mod:suningot"
+    },
+    "2": {
+      "item": "le_vrai_mod:suningot"
+    },
+    "3": {
+      "item": "le_vrai_mod:suningot"
+    },
+    "5": {
+      "item": "le_vrai_mod:suningot"
+    },
+    "6": {
+      "item": "le_vrai_mod:suningot"
+    },
+    "8": {
+      "item": "le_vrai_mod:suningot"
+    }
+  },
+  "result": {
+    "item": "le_vrai_mod:sunarmor_leggings",
+    "count": 1
+  }
+}

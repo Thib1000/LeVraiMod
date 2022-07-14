@@ -1,0 +1,30 @@
+{
+  "_fv": 28,
+  "_type": "structure",
+  "definition": {
+    "structure": "tour",
+    "randomlyRotateStructure": true,
+    "surfaceDetectionType": "First motion blocking block",
+    "spawnProbability": 10000,
+    "minCountPerChunk": 1,
+    "maxCountPerChunk": 1,
+    "spawnLocation": "Ground",
+    "spawnHeightOffset": 0,
+    "spawnXOffset": 0,
+    "spawnZOffset": 0,
+    "spawnWorldTypes": [
+      "CUSTOM:Renewed"
+    ],
+    "restrictionBlocks": [
+      {
+        "value": "CUSTOM:Stonerenewed"
+      }
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Renwed"
+      }
+    ],
+    "ignoreBlocks": "STRUCTURE_BLOCK"
+  }
+}

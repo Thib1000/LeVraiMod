@@ -1,0 +1,40 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "piochesdeselems3",
+    "customModelName": "Normal",
+    "name": "Pioche des elements",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Thib1000"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 6,
+    "efficiency": 3.0,
+    "attackSpeed": 1.0,
+    "enchantability": 1,
+    "damageVsEntity": 4.0,
+    "usageCount": 10000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Lingotdesdimensions"
+      },
+      {
+        "value": "CUSTOM:Lingotdesdimensionsoverworldetnether"
+      },
+      {
+        "value": "CUSTOM:Lingotdesdimensionsenderetrefined"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onBlockDestroyedWithTool": {
+      "name": "PiochedeselementsBlockDestroyedWithTool"
+    }
+  }
+}

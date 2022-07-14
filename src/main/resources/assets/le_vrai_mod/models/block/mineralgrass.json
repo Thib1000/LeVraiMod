@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "le_vrai_mod:blocks/bubble_coral_fan",
+    "particle": "le_vrai_mod:blocks/bubble_coral_fan"
+  }
+}

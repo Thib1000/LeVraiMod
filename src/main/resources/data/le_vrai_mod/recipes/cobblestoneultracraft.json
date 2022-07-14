@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "le_vrai_mod:cobblestonemulticompressed"
+    },
+    "1": {
+      "item": "le_vrai_mod:cobblestonemulticompressed"
+    },
+    "2": {
+      "item": "le_vrai_mod:cobblestonemulticompressed"
+    },
+    "3": {
+      "item": "le_vrai_mod:cobblestonemulticompressed"
+    },
+    "4": {
+      "item": "le_vrai_mod:cobblestonemulticompressed"
+    },
+    "5": {
+      "item": "le_vrai_mod:cobblestonemulticompressed"
+    },
+    "6": {
+      "item": "le_vrai_mod:cobblestonemulticompressed"
+    },
+    "7": {
+      "item": "le_vrai_mod:cobblestonemulticompressed"
+    },
+    "8": {
+      "item": "le_vrai_mod:cobblestonemulticompressed"
+    }
+  },
+  "result": {
+    "item": "le_vrai_mod:s_cobblestoneultracompressed",
+    "count": 1
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "le_vrai_mod:items/la_vraie_ruby_pickaxe"
+  }
+}

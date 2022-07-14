@@ -1,0 +1,480 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Crafting help",
+          "color": {
+            "value": -16724992,
+            "falpha": 0.0
+          },
+          "name": "Crafting help",
+          "x": 177,
+          "y": 17
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next",
+          "width": 45,
+          "height": 20,
+          "name": "Next",
+          "x": 375,
+          "y": 215
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "blaze_rod.png",
+          "use1Xscale": false,
+          "name": "blaze_rod.png",
+          "x": 7,
+          "y": 65
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "millieu_des_elements.png",
+          "use1Xscale": false,
+          "name": "millieu_des_elements.png",
+          "x": 21,
+          "y": 52
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Batons des elements",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Batons des elements",
+          "x": 7,
+          "y": 26
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Nether",
+          "color": {
+            "value": -65485,
+            "falpha": 0.0
+          },
+          "name": "Nether",
+          "x": 7,
+          "y": 45
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "millieu_des_elements.png",
+          "use1Xscale": false,
+          "name": "millieu_des_elements.png",
+          "x": 55,
+          "y": 66
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ender_eye.png",
+          "use1Xscale": false,
+          "name": "ender_eye.png",
+          "x": 67,
+          "y": 57
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Ender",
+          "color": {
+            "value": -10066177,
+            "falpha": 0.0
+          },
+          "name": "Ender",
+          "x": 62,
+          "y": 45
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Overworld",
+          "color": {
+            "value": -10027162,
+            "falpha": 0.0
+          },
+          "name": "Overworld",
+          "x": 3,
+          "y": 93
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "millieu_des_elements.png",
+          "use1Xscale": false,
+          "name": "millieu_des_elements.png",
+          "x": 9,
+          "y": 112
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "trident.png",
+          "use1Xscale": false,
+          "name": "trident.png",
+          "x": 22,
+          "y": 121
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Renewed",
+          "color": {
+            "value": -205,
+            "falpha": 0.0
+          },
+          "name": "Renewed",
+          "x": 64,
+          "y": 93
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "millieu_des_elements.png",
+          "use1Xscale": false,
+          "name": "millieu_des_elements.png",
+          "x": 79,
+          "y": 116
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "sun_block.png",
+          "use1Xscale": false,
+          "name": "sun_block.png",
+          "x": 65,
+          "y": 104
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "baton_des_elements_nether.png",
+          "use1Xscale": true,
+          "name": "baton_des_elements_nether.png",
+          "x": 40,
+          "y": 46
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "baton_des_elements_ender.png",
+          "use1Xscale": true,
+          "name": "baton_des_elements_ender.png",
+          "x": 88,
+          "y": 47
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "baton_des_elements_overworld.png",
+          "use1Xscale": true,
+          "name": "baton_des_elements_overworld.png",
+          "x": 49,
+          "y": 92
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "baton_des_elements_renewed.png",
+          "use1Xscale": true,
+          "name": "baton_des_elements_renewed.png",
+          "x": 103,
+          "y": 95
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Croix des Elements",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Croix des Elements",
+          "x": 8,
+          "y": 152
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "croix_des_elements.png",
+          "use1Xscale": false,
+          "name": "croix_des_elements.png",
+          "x": 105,
+          "y": 148
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "baton_des_elements_renewed.png",
+          "use1Xscale": false,
+          "name": "baton_des_elements_renewed.png",
+          "x": 12,
+          "y": 172
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "baton_des_elements_ender.png",
+          "use1Xscale": false,
+          "name": "baton_des_elements_ender.png",
+          "x": 33,
+          "y": 174
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "diamond.png",
+          "use1Xscale": false,
+          "name": "diamond.png",
+          "x": 24,
+          "y": 170
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "baton_des_elements_nether.png",
+          "use1Xscale": false,
+          "name": "baton_des_elements_nether.png",
+          "x": 13,
+          "y": 195
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "diamond.png",
+          "use1Xscale": false,
+          "name": "diamond.png",
+          "x": 13,
+          "y": 184
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "diamond.png",
+          "use1Xscale": false,
+          "name": "diamond.png",
+          "x": 24,
+          "y": 197
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "diamond.png",
+          "use1Xscale": false,
+          "name": "diamond.png",
+          "x": 34,
+          "y": 184
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "baton_des_elements_overworld.png",
+          "use1Xscale": false,
+          "name": "baton_des_elements_overworld.png",
+          "x": 34,
+          "y": 195
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "millieu_des_elements.png",
+          "use1Xscale": false,
+          "name": "millieu_des_elements.png",
+          "x": 23,
+          "y": 184
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Pepite des elements",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Pepite des elements",
+          "x": 316,
+          "y": 28
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "millieu_des_elements.png",
+          "use1Xscale": false,
+          "name": "millieu_des_elements.png",
+          "x": 411,
+          "y": 25
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "end_stone.png",
+          "use1Xscale": false,
+          "name": "end_stone.png",
+          "x": 366,
+          "y": 48
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "grass_block_side.png",
+          "use1Xscale": false,
+          "name": "grass_block_side.png",
+          "x": 341,
+          "y": 48
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "diamond_block.png",
+          "use1Xscale": false,
+          "name": "diamond_block.png",
+          "x": 366,
+          "y": 70
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "nether_bricks.png",
+          "use1Xscale": false,
+          "name": "nether_bricks.png",
+          "x": 341,
+          "y": 69
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Bottes volantes",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Bottes volantes",
+          "x": 323,
+          "y": 99
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "cnew.png",
+          "use1Xscale": false,
+          "name": "cnew.png",
+          "x": 401,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "diamond_boots.png",
+          "use1Xscale": false,
+          "name": "diamond_boots.png",
+          "x": 353,
+          "y": 124
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "dimension_ingot3.png",
+          "use1Xscale": false,
+          "name": "dimension_ingot3.png",
+          "x": 353,
+          "y": 110
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "dimension_ingot3.png",
+          "use1Xscale": false,
+          "name": "dimension_ingot3.png",
+          "x": 352,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "sun_ingot_new.png",
+          "use1Xscale": false,
+          "name": "sun_ingot_new.png",
+          "x": 373,
+          "y": 125
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "sun_ingot_new.png",
+          "use1Xscale": false,
+          "name": "sun_ingot_new.png",
+          "x": 331,
+          "y": 125
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

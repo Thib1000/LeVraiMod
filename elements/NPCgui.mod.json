@@ -1,0 +1,70 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "npc_upgrade.png",
+          "use1Xscale": false,
+          "name": "npc_upgrade.png",
+          "x": 45,
+          "y": 42
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "  ",
+          "onClick": {
+            "name": "NPCupgradebutton"
+          },
+          "width": 35,
+          "height": 20,
+          "name": "  ",
+          "x": 11,
+          "y": 41
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "  ",
+          "onClick": {
+            "name": "RecuperermespouvoirsNPC"
+          },
+          "width": 35,
+          "height": 20,
+          "name": "  ",
+          "x": 381,
+          "y": 40
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "npcrecyclage.png",
+          "use1Xscale": false,
+          "name": "npcrecyclage.png",
+          "x": 368,
+          "y": 41
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 141,
+          "y": 71
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 249,
+          "y": 71
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #2",
+          "x": 195,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_ore.png",
+          "use1Xscale": false,
+          "name": "iron_ore.png",
+          "x": 49,
+          "y": 62
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "coal.png",
+          "use1Xscale": false,
+          "name": "coal.png",
+          "x": 64,
+          "y": 62
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_ingot.png",
+          "use1Xscale": false,
+          "name": "iron_ingot.png",
+          "x": 105,
+          "y": 62
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "blast_furnace.png",
+          "use1Xscale": false,
+          "name": "blast_furnace.png",
+          "x": 83,
+          "y": 62
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "    ",
+          "onClick": {
+            "name": "NPCanvanceprosses"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "    ",
+          "x": 2,
+          "y": 59
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bonne_fleche_gui.png",
+          "use1Xscale": true,
+          "name": "bonne_fleche_gui.png",
+          "x": 222,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fleche_1.png",
+          "use1Xscale": false,
+          "name": "fleche_1.png",
+          "x": 168,
+          "y": 71
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

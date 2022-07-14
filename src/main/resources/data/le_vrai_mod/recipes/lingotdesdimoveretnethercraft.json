@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:nether_wart_block"
+    },
+    "1": {
+      "item": "minecraft:nether_wart_block"
+    },
+    "2": {
+      "item": "minecraft:nether_wart_block"
+    },
+    "3": {
+      "item": "minecraft:nether_wart_block"
+    },
+    "5": {
+      "item": "minecraft:grass_block"
+    },
+    "6": {
+      "item": "minecraft:grass_block"
+    },
+    "7": {
+      "item": "minecraft:grass_block"
+    },
+    "8": {
+      "item": "minecraft:grass_block"
+    }
+  },
+  "result": {
+    "item": "le_vrai_mod:lingotdesdimensionsoverworldetnether",
+    "count": 1
+  }
+}

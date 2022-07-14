@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_glass_pane_side_alt",
+  "textures": {
+    "edge": "le_vrai_mod:blocks/oak_log_1",
+    "pane": "le_vrai_mod:blocks/oak_log_1"
+  }
+}

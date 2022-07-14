@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "le_vrai_mod:blocks/stone_rnew",
+    "up": "le_vrai_mod:blocks/stone_rnew",
+    "north": "le_vrai_mod:blocks/stone_rnew",
+    "east": "le_vrai_mod:blocks/stone_rnew",
+    "south": "le_vrai_mod:blocks/stone_rnew",
+    "west": "le_vrai_mod:blocks/stone_rnew",
+    "particle": "le_vrai_mod:blocks/stone_rnew"
+  }
+}

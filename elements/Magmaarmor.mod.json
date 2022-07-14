@@ -1,0 +1,74 @@
+{
+  "_fv": 28,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "magma_helmet",
+    "enableBody": true,
+    "textureBody": "magma_chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "magma_pants",
+    "enableBoots": true,
+    "textureBoots": "magma_boots",
+    "onHelmetTick": {
+      "name": "MagmaarmorHelmetTickEvent"
+    },
+    "onBodyTick": {
+      "name": "MagmaarmorHelmetTickEvent"
+    },
+    "onLeggingsTick": {
+      "name": "MagmaarmorHelmetTickEvent"
+    },
+    "onBootsTick": {
+      "name": "MagmaarmorHelmetTickEvent"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:Thib1000"
+    },
+    "armorTextureFile": "magmanew_",
+    "helmetName": "Magma Helmet",
+    "bodyName": "Magma Body",
+    "leggingsName": "Magma Leggings",
+    "bootsName": "Magma Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 25,
+    "damageValueHelmet": 2,
+    "damageValueBody": 6,
+    "damageValueLeggings": 5,
+    "damageValueBoots": 2,
+    "enchantability": 9,
+    "toughness": 0.0,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "Blocks.MAGMA"
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "le_vrai_mod:suningot"
+    },
+    "2": {
+      "item": "le_vrai_mod:suningot"
+    },
+    "3": {
+      "item": "le_vrai_mod:suningot"
+    },
+    "5": {
+      "item": "le_vrai_mod:suningot"
+    }
+  },
+  "result": {
+    "item": "le_vrai_mod:sunarmor_boots",
+    "count": 1
+  }
+}

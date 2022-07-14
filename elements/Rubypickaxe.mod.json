@@ -1,0 +1,34 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "la_vraie_ruby_pickaxe",
+    "customModelName": "Normal",
+    "name": "Ruby pickaxe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Thib1000"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 4,
+    "efficiency": 10.0,
+    "attackSpeed": 1.4000000000000001,
+    "enchantability": 1,
+    "damageVsEntity": 4.0,
+    "usageCount": 50000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Ruby"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "RubypickaxeRightClickedInAir"
+    }
+  }
+}

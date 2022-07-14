@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "le_vrai_mod:pde"
+    },
+    "1": {
+      "item": "le_vrai_mod:pde"
+    },
+    "2": {
+      "item": "le_vrai_mod:pde"
+    },
+    "3": {
+      "item": "le_vrai_mod:pde"
+    },
+    "4": {
+      "item": "le_vrai_mod:pde"
+    },
+    "5": {
+      "item": "le_vrai_mod:pde"
+    },
+    "6": {
+      "item": "le_vrai_mod:pde"
+    },
+    "7": {
+      "item": "le_vrai_mod:pde"
+    },
+    "8": {
+      "item": "le_vrai_mod:pde"
+    }
+  },
+  "result": {
+    "item": "le_vrai_mod:ppetedeelements",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "le_vrai_mod:sunblock"
+    }
+  ],
+  "result": {
+    "item": "le_vrai_mod:suningot",
+    "count": 9
+  }
+}

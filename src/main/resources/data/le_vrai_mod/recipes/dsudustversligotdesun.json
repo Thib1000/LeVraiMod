@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "le_vrai_mod:sundust"
+    },
+    "1": {
+      "item": "le_vrai_mod:sundust"
+    },
+    "2": {
+      "item": "le_vrai_mod:sundust"
+    },
+    "3": {
+      "item": "le_vrai_mod:sundust"
+    },
+    "4": {
+      "item": "le_vrai_mod:sundust"
+    },
+    "5": {
+      "item": "le_vrai_mod:sundust"
+    },
+    "6": {
+      "item": "le_vrai_mod:sundust"
+    },
+    "7": {
+      "item": "le_vrai_mod:sundust"
+    },
+    "8": {
+      "item": "le_vrai_mod:sundust"
+    }
+  },
+  "result": {
+    "item": "le_vrai_mod:sunnuggets",
+    "count": 1
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "le_vrai_mod:sunnuggets"
+    },
+    {
+      "item": "le_vrai_mod:sunnuggets"
+    },
+    {
+      "item": "le_vrai_mod:sunnuggets"
+    },
+    {
+      "item": "le_vrai_mod:sunnuggets"
+    },
+    {
+      "item": "le_vrai_mod:sunnuggets"
+    },
+    {
+      "item": "le_vrai_mod:sunnuggets"
+    },
+    {
+      "item": "le_vrai_mod:sunnuggets"
+    },
+    {
+      "item": "le_vrai_mod:sunnuggets"
+    },
+    {
+      "item": "le_vrai_mod:sunnuggets"
+    }
+  ],
+  "result": {
+    "item": "le_vrai_mod:suningot",
+    "count": 1
+  }
+}

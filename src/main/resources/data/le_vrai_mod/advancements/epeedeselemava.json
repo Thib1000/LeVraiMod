@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "le_vrai_mod:epeedeselements"
+    },
+    "title": {
+      "translate": "advancements.epeedeselemava.title"
+    },
+    "description": {
+      "translate": "advancements.epeedeselemava.descr"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "epeedeselemava": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "le_vrai_mod:epeedeselements",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "le_vrai_mod:remenciment"
+}

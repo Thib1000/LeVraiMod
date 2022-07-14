@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "le_vrai_mod:lingotdesdimensions"
+    },
+    "1": {
+      "item": "le_vrai_mod:lingotdesdimensions"
+    },
+    "2": {
+      "item": "le_vrai_mod:lingotdesdimensions"
+    },
+    "4": {
+      "item": "le_vrai_mod:stickdesdimensions"
+    },
+    "7": {
+      "item": "le_vrai_mod:stickdesdimensions"
+    }
+  },
+  "result": {
+    "item": "le_vrai_mod:piochedeselements",
+    "count": 1
+  }
+}

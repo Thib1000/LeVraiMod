@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "le_vrai_mod:blocks/oak_log_1"
+  }
+}

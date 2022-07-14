@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "le_vrai_mod:blocks/cobblestone_x729",
+    "up": "le_vrai_mod:blocks/cobblestone_x729",
+    "north": "le_vrai_mod:blocks/cobblestone_x729",
+    "east": "le_vrai_mod:blocks/cobblestone_x729",
+    "south": "le_vrai_mod:blocks/cobblestone_x729",
+    "west": "le_vrai_mod:blocks/cobblestone_x729",
+    "particle": "le_vrai_mod:blocks/cobblestone_x729"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "le_vrai_mod:block/renewed_portal_ew"
+    },
+    "axis=x": {
+      "model": "le_vrai_mod:block/renewed_portal_ns"
+    }
+  }
+}

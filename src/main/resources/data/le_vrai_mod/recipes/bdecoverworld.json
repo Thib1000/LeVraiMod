@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 ",
+    " 3"
+  ],
+  "key": {
+    "0": {
+      "item": "le_vrai_mod:pde"
+    },
+    "3": {
+      "item": "minecraft:trident"
+    }
+  },
+  "result": {
+    "item": "le_vrai_mod:batondeselementsoverworld",
+    "count": 1
+  }
+}

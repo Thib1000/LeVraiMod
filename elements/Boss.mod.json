@@ -1,0 +1,12 @@
+{
+  "_fv": 28,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "NUMPAD9",
+    "keyBindingName": "Boss",
+    "keyBindingCategoryKey": "gameplay",
+    "onKeyPressed": {
+      "name": "BossToucheEnfoncee"
+    }
+  }
+}

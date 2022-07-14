@@ -1,0 +1,27 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "wetdirt_pickaxe",
+    "customModelName": "Normal",
+    "name": "Wet dirt pickaxe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Thib1000"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 1,
+    "efficiency": 32.0,
+    "attackSpeed": 4.199999999999999,
+    "enchantability": 52,
+    "damageVsEntity": 7.699999999999999,
+    "usageCount": 1,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

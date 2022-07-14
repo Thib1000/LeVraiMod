@@ -1,0 +1,11 @@
+{
+  "_fv": 28,
+  "_type": "command",
+  "definition": {
+    "commandName": "thibhelp",
+    "permissionLevel": "1",
+    "onCommandExecuted": {
+      "name": "HelpQuandUneCommandeEstExecutee"
+    }
+  }
+}

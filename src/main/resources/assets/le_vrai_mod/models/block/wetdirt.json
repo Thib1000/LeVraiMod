@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "le_vrai_mod:blocks/wetdirt",
+    "up": "le_vrai_mod:blocks/wetdirt",
+    "north": "le_vrai_mod:blocks/wetdirt",
+    "east": "le_vrai_mod:blocks/wetdirt",
+    "south": "le_vrai_mod:blocks/wetdirt",
+    "west": "le_vrai_mod:blocks/wetdirt",
+    "particle": "le_vrai_mod:blocks/wetdirt"
+  }
+}

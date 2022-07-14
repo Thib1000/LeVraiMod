@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "arriere",
+        "1": "avant"
+      },
+      "name": "default"
+    }
+  }
+}
