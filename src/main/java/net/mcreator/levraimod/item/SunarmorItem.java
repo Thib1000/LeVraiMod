@@ -107,6 +107,16 @@ public class SunarmorItem extends LeVraiModModElements.ModElement {
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "le_vrai_mod:textures/models/armor/sunnew__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
+
+			@Override
+			public void onArmorTick(ItemStack itemstack, World world, PlayerEntity entity) {
+				double x = entity.getPosX();
+				double y = entity.getPosY();
+				double z = entity.getPosZ();
+
+				SunarmorHelmetTickEventProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity)).collect(HashMap::new,
+						(_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+			}
 		}.setRegistryName("sunarmor_chestplate"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(Thib1000ItemGroup.tab)) {
 			@Override

@@ -108,7 +108,7 @@ public class MineralgrassBlock extends LeVraiModModElements.ModElement {
 			configuredFeature = feature
 					.withConfiguration(
 							(new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(block.getDefaultState()), new SimpleBlockPlacer()))
-									.tries(64).build())
+									.tries(16).build())
 					.withPlacement(Features.Placements.VEGETATION_PLACEMENT).withPlacement(Features.Placements.HEIGHTMAP_PLACEMENT).func_242731_b(1);
 			event.getRegistry().register(feature.setRegistryName("mineralgrass"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("le_vrai_mod:mineralgrass"), configuredFeature);

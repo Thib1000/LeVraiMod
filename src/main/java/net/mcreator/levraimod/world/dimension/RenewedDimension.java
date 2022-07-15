@@ -87,14 +87,10 @@ public class RenewedDimension extends LeVraiModModElements.ModElement {
 	public void init(FMLCommonSetupEvent event) {
 		Set<Block> replaceableBlocks = new HashSet<>();
 		replaceableBlocks.add(StonerenewedBlock.block);
-		replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("le_vrai_mod:kingofthebaacasabebiomedapparition"))
-				.getGenerationSettings().getSurfaceBuilder().get().getConfig().getTop().getBlock());
-		replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("le_vrai_mod:kingofthebaacasabebiomedapparition"))
-				.getGenerationSettings().getSurfaceBuilder().get().getConfig().getUnder().getBlock());
-		replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("le_vrai_mod:renwed")).getGenerationSettings().getSurfaceBuilder()
-				.get().getConfig().getTop().getBlock());
-		replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("le_vrai_mod:renwed")).getGenerationSettings().getSurfaceBuilder()
-				.get().getConfig().getUnder().getBlock());
+		replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("le_vrai_mod:renewed_biome")).getGenerationSettings()
+				.getSurfaceBuilder().get().getConfig().getTop().getBlock());
+		replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("le_vrai_mod:renewed_biome")).getGenerationSettings()
+				.getSurfaceBuilder().get().getConfig().getUnder().getBlock());
 		DeferredWorkQueue.runLater(() -> {
 			try {
 				ObfuscationReflectionHelper.setPrivateValue(WorldCarver.class, WorldCarver.CAVE, new ImmutableSet.Builder<Block>()

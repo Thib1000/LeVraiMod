@@ -7,28 +7,28 @@
       "type": "minecraft:multi_noise",
       "seed": -7274690544095338736,
       "temperature_noise": {
-        "firstOctave": -5.32,
+        "firstOctave": -5.11,
         "amplitudes": [
           2,
           2
         ]
       },
       "humidity_noise": {
-        "firstOctave": -5.32,
+        "firstOctave": -5.11,
         "amplitudes": [
           2,
           2
         ]
       },
       "altitude_noise": {
-        "firstOctave": -5.32,
+        "firstOctave": -5.11,
         "amplitudes": [
           2,
           2
         ]
       },
       "weirdness_noise": {
-        "firstOctave": -5.32,
+        "firstOctave": -5.11,
         "amplitudes": [
           2,
           2
@@ -36,22 +36,12 @@
       },
       "biomes": [
         {
-          "biome": "le_vrai_mod:kingofthebaacasabebiomedapparition",
+          "biome": "le_vrai_mod:renewed_biome",
           "parameters": {
-            "temperature": 1,
-            "humidity": -1,
-            "altitude": 0.75,
-            "weirdness": -1.5,
-            "offset": 0
-          }
-        },
-        {
-          "biome": "le_vrai_mod:renwed",
-          "parameters": {
-            "temperature": -1,
-            "humidity": 1,
-            "altitude": -0.75,
-            "weirdness": 1.5,
+            "temperature": 0,
+            "humidity": 0,
+            "altitude": 0,
+            "weirdness": 0,
             "offset": 0
           }
         }
@@ -67,7 +57,10 @@
         "Name": "le_vrai_mod:stonerenewed"
       },
       "default_fluid": {
-        "Name": "minecraft:air"
+        "Name": "minecraft:water",
+        "Properties": {
+          "level": "0"
+        }
       },
       "noise": {
         "min_y": 0,

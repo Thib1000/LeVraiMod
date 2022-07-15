@@ -21,17 +21,12 @@ public class SunarmorHelmetTickEventProcedure {
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
-		if ((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(SunarmorItem.helmet)) : false) {
-			if ((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(SunarmorItem.body)) : false) {
-				if ((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(SunarmorItem.legs)) : false) {
-					if ((entity instanceof PlayerEntity)
-							? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(SunarmorItem.boots))
-							: false) {
-						if (entity instanceof LivingEntity)
-							((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.ABSORPTION, (int) 60, (int) 2));
-					}
-				}
-			}
+		if (((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(SunarmorItem.body)) : false)
+				&& ((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(SunarmorItem.helmet)) : false)
+				&& ((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(SunarmorItem.legs)) : false)
+				&& ((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(SunarmorItem.boots)) : false)) {
+			if (entity instanceof LivingEntity)
+				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.ABSORPTION, (int) 60, (int) 2));
 		}
 	}
 }
