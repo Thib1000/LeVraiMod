@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "le_vrai_mod:blocks/mystical_wood_logtop-bottom",
+    "up": "le_vrai_mod:blocks/mystical_wood_logtop-bottom",
+    "north": "le_vrai_mod:blocks/mystical_wood_log",
+    "east": "le_vrai_mod:blocks/mystical_wood_log",
+    "south": "le_vrai_mod:blocks/mystical_wood_log",
+    "west": "le_vrai_mod:blocks/mystical_wood_log",
+    "particle": "le_vrai_mod:blocks/mystical_wood_logtop-bottom"
+  }
+}

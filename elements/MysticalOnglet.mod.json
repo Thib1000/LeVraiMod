@@ -1,0 +1,11 @@
+{
+  "_fv": 28,
+  "_type": "tab",
+  "definition": {
+    "name": "Mystical Onglet",
+    "icon": {
+      "value": "CUSTOM:MysticalGrass"
+    },
+    "showSearch": false
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "le_vrai_mod:blocks/mystical_dirt",
+    "up": "le_vrai_mod:blocks/mystical_grass_top",
+    "north": "le_vrai_mod:blocks/mystical_grass",
+    "east": "le_vrai_mod:blocks/mystical_grass",
+    "south": "le_vrai_mod:blocks/mystical_grass",
+    "west": "le_vrai_mod:blocks/mystical_grass",
+    "particle": "le_vrai_mod:blocks/mystical_dirt"
+  }
+}
